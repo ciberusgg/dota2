@@ -1,0 +1,40 @@
+# GENERATED FILE DONT TOUCH THES SHET
+name: Update game client
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.REPOSITORY_GITHUB_TOKEN }}
+
+      - uses: fusion-engineering/setup-git-credentials@v2
+        with:
+          credentials: ${{ secrets.GIT_LFS_CREDENTIALS }}
+
+      - uses: invisionapp/private-action-loader@v3
+        id: output_example
+        name: Update game client & push
+        with:
+          pal-repo-token: ${{ secrets.REPOSITORY_GITHUB_TOKEN }}
+          # IN PROD MUST BE refs/remotes/origin/master
+          pal-repo-name: ciberusps/game-clients-tracking@refs/remotes/origin/master
+          pal-action-directory: ./.github/actions/update/
+          repository: ${{ github.repository }}
+          steam-game-id: ${{ secrets.STEAM_GAME_ID }}
+          steam-account-nickname: ${{ secrets.STEAM_ACCOUNT_NICKNAME }}
+          steam-account-password: ${{ secrets.STEAM_ACCOUNT_PASSWORD }}
+          bunny-cdn-api-key: ${{ secrets.BUNNY_CDN_API_KEY }}
+          firebase-service-account: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          discord-bot-token: ${{ secrets.DISCORD_BOT_TOKEN }}

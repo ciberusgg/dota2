@@ -1,0 +1,93 @@
+# GENERATED FILE DONT TOUCH THES SHET
+* eol=lf
+
+## Unity ##
+*.cs diff=csharp text eol=lf
+*.cginc text eol=lf
+*.shader text eol=lf
+
+*.mat merge=unityyamlmerge eol=lf
+*.anim merge=unityyamlmerge eol=lf
+*.unity merge=unityyamlmerge eol=lf
+*.prefab merge=unityyamlmerge eol=lf
+*.physicsMaterial2D merge=unityyamlmerge eol=lf
+*.physicMaterial merge=unityyamlmerge eol=lf
+*.asset merge=unityyamlmerge eol=lf
+*.meta merge=unityyamlmerge eol=lf
+*.controller merge=unityyamlmerge eol=lf
+
+
+## git-lfs ##
+
+# Image
+*.jpg filter=lfs diff=lfs merge=lfs eol=lf -text
+*.jpeg filter=lfs diff=lfs merge=lfs eol=lf -text
+*.png filter=lfs diff=lfs merge=lfs eol=lf -text
+*.gif filter=lfs diff=lfs merge=lfs eol=lf -text
+*.psd filter=lfs diff=lfs merge=lfs eol=lf -text
+*.ai filter=lfs diff=lfs merge=lfs eol=lf -text
+*.bmp filter=lfs diff=lfs merge=lfs eol=lf -text
+*.ico filter=lfs diff=lfs merge=lfs eol=lf -text
+*.tga filter=lfs diff=lfs merge=lfs eol=lf -text
+
+# Audio
+*.mp3 filter=lfs diff=lfs merge=lfs eol=lf -text
+*.wav filter=lfs diff=lfs merge=lfs eol=lf -text
+*.ogg filter=lfs diff=lfs merge=lfs eol=lf -text
+
+# Video
+*.mp4 filter=lfs diff=lfs merge=lfs eol=lf -text
+*.mov filter=lfs diff=lfs merge=lfs eol=lf -text
+*.webm filter=lfs diff=lfs merge=lfs eol=lf -text
+
+# 3D Object
+*.fbx filter=lfs diff=lfs merge=lfs eol=lf -text
+*.blend filter=lfs diff=lfs merge=lfs eol=lf -text
+*.obj filter=lfs diff=lfs merge=lfs eol=lf -text
+
+# ETC
+*.dll filter=lfs diff=lfs merge=lfs eol=lf -text
+*.exe filter=lfs diff=lfs merge=lfs eol=lf -text
+*.bin filter=lfs diff=lfs merge=lfs eol=lf -text
+*.chm filter=lfs diff=lfs merge=lfs eol=lf -text
+*.xcf filter=lfs diff=lfs merge=lfs eol=lf -text
+*.soc filter=lfs diff=lfs merge=lfs eol=lf -text
+*.ani filter=lfs diff=lfs merge=lfs eol=lf -text
+*.tmp filter=lfs diff=lfs merge=lfs eol=lf -text
+
+*.a filter=lfs diff=lfs merge=lfs eol=lf -text
+*.exr filter=lfs diff=lfs merge=lfs eol=lf -text
+*.pdf filter=lfs diff=lfs merge=lfs eol=lf -text
+*.zip filter=lfs diff=lfs merge=lfs eol=lf -text
+*.unitypackage filter=lfs diff=lfs merge=lfs eol=lf -text
+*.aif filter=lfs diff=lfs merge=lfs eol=lf -text
+*.rns filter=lfs diff=lfs merge=lfs eol=lf -text
+*.reason filter=lfs diff=lfs merge=lfs eol=lf -text
+*.lxo filter=lfs diff=lfs merge=lfs eol=lf -text
+
+# Valve
+*.vpk filter=lfs diff=lfs merge=lfs eol=lf -text
+*.vdacdefs_c filter=lfs diff=lfs merge=lfs eol=lf -text
+*.vtex_c filter=lfs diff=lfs merge=lfs eol=lf -text
+*.vanim_c filter=lfs diff=lfs merge=lfs eol=lf -text
+*.vphys_c filter=lfs diff=lfs merge=lfs eol=lf -text
+*.vmdl filter=lfs diff=lfs merge=lfs eol=lf -text
+*.vmesh_c filter=lfs diff=lfs merge=lfs eol=lf -text
+*.vagrp_c filter=lfs diff=lfs merge=lfs eol=lf -text
+*.vsnd_c filter=lfs diff=lfs merge=lfs eol=lf -text
+*.vpcf_c filter=lfs diff=lfs merge=lfs eol=lf -text
+*.vsnap_c filter=lfs diff=lfs merge=lfs eol=lf -text
+*.vmdl_c filter=lfs diff=lfs merge=lfs eol=lf -text
+*.vseq_c filter=lfs diff=lfs merge=lfs eol=lf -text
+*.vmorf_c filter=lfs diff=lfs merge=lfs eol=lf -text
+*.vpdi_c filter=lfs diff=lfs merge=lfs eol=lf -text
+*.vcdlist_c filter=lfs diff=lfs merge=lfs eol=lf -text
+*.vrman_c filter=lfs diff=lfs merge=lfs eol=lf -text
+
+# Fonts
+*.otf filter=lfs diff=lfs merge=lfs eol=lf -text
+*.uifont filter=lfs diff=lfs merge=lfs eol=lf -text
+*.ttf filter=lfs diff=lfs merge=lfs eol=lf -text
+
+# Specific files
+game/dota_addons/aghanim/resource/flash3/images/items/stony_coat filter=lfs diff=lfs merge=lfs eol=lf -text
