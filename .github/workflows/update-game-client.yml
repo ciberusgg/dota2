@@ -26,10 +26,12 @@ jobs:
       - name: free disk space
         run: |
           df -h
-          sudo swapoff -a
-          sudo rm -f /swapfile
-          sudo apt clean
-          docker rmi $(docker image ls -aq)
+          # sudo swapoff -a
+          # sudo rm -f /swapfile
+          # sudo apt clean
+          # docker rmi $(docker image ls -aq)
+          sudo swapoff /swapfile
+          sudo rm -rf /swapfile /usr/share/dotnet /usr/local/lib/android /opt/ghc
           df -h
 
       - uses: invisionapp/private-action-loader@v3
