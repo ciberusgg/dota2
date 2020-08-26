@@ -30,6 +30,7 @@ jobs:
           # sudo rm -f /swapfile
           # sudo apt clean
           # docker rmi $(docker image ls -aq)
+          echo "clean swapoff"
           sudo swapoff /swapfile
           sudo rm -rf /swapfile /usr/share/dotnet /usr/local/lib/android /opt/ghc
           df -h
