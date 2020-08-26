@@ -1,0 +1,696 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_Items = 
+	[
+		{
+			m_nGroup = "Active"
+			m_nRole = "WindowText"
+			m_Color = [ 182, 182, 183, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "WindowText"
+			m_Color = [ 120, 120, 121, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "WindowText"
+			m_Color = [ 152, 152, 153, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "Button"
+			m_Color = [ 73, 73, 73, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "Button"
+			m_Color = [ 73, 73, 73, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "Button"
+			m_Color = [ 73, 73, 73, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "Light"
+			m_Color = [ 110, 110, 110, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "Light"
+			m_Color = [ 110, 110, 110, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "Light"
+			m_Color = [ 110, 110, 110, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "Midlight"
+			m_Color = [ 91, 91, 91, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "Midlight"
+			m_Color = [ 91, 91, 91, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "Midlight"
+			m_Color = [ 91, 91, 91, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "Dark"
+			m_Color = [ 42, 42, 42, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "Dark"
+			m_Color = [ 42, 42, 42, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "Dark"
+			m_Color = [ 42, 42, 42, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "Mid"
+			m_Color = [ 58, 58, 58, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "Mid"
+			m_Color = [ 58, 58, 58, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "Mid"
+			m_Color = [ 58, 58, 58, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "Text"
+			m_Color = [ 182, 182, 183, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "Text"
+			m_Color = [ 120, 120, 121, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "Text"
+			m_Color = [ 152, 152, 153, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "BrightText"
+			m_Color = [ 200, 200, 200, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "BrightText"
+			m_Color = [ 120, 120, 121, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "BrightText"
+			m_Color = [ 152, 152, 153, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "ButtonText"
+			m_Color = [ 182, 182, 183, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "ButtonText"
+			m_Color = [ 120, 120, 121, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "ButtonText"
+			m_Color = [ 152, 152, 153, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "Base"
+			m_Color = [ 38, 38, 39, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "Base"
+			m_Color = [ 38, 38, 39, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "Base"
+			m_Color = [ 38, 38, 39, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "Window"
+			m_Color = [ 54, 54, 54, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "Window"
+			m_Color = [ 54, 54, 54, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "Window"
+			m_Color = [ 54, 54, 54, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "Shadow"
+			m_Color = [ 0, 0, 0, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "Shadow"
+			m_Color = [ 0, 0, 0, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "Shadow"
+			m_Color = [ 0, 0, 0, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "Highlight"
+			m_Color = [ 79, 82, 89, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "Highlight"
+			m_Color = [ 79, 82, 89, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "Highlight"
+			m_Color = [ 79, 82, 89, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "HighlightedText"
+			m_Color = [ 255, 255, 255, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "HighlightedText"
+			m_Color = [ 255, 255, 255, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "HighlightedText"
+			m_Color = [ 255, 255, 255, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "Link"
+			m_Color = [ 182, 182, 183, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "Link"
+			m_Color = [ 120, 120, 121, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "Link"
+			m_Color = [ 152, 152, 153, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "LinkVisited"
+			m_Color = [ 182, 182, 183, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "LinkVisited"
+			m_Color = [ 120, 120, 121, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "LinkVisited"
+			m_Color = [ 152, 152, 153, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "AlternateBase"
+			m_Color = [ 55, 55, 55, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "AlternateBase"
+			m_Color = [ 55, 55, 55, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "AlternateBase"
+			m_Color = [ 55, 55, 55, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "NoRole"
+			m_Color = [ 255, 255, 255, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "NoRole"
+			m_Color = [ 255, 255, 255, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "NoRole"
+			m_Color = [ 255, 255, 255, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "ToolTipBase"
+			m_Color = [ 54, 54, 54, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "ToolTipBase"
+			m_Color = [ 54, 54, 54, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "ToolTipBase"
+			m_Color = [ 54, 54, 54, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "ToolTipText"
+			m_Color = [ 182, 182, 183, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "ToolTipText"
+			m_Color = [ 120, 120, 121, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "ToolTipText"
+			m_Color = [ 152, 152, 153, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "NColorRoles_Qt"
+			m_Color = [ 255, 0, 0, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "NColorRoles_Qt"
+			m_Color = [ 255, 0, 0, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "NColorRoles_Qt"
+			m_Color = [ 255, 0, 0, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "Grid"
+			m_Color = [ 65, 65, 65, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "DarkSplitterHandle"
+			m_Color = [ 75, 75, 75, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "LightSplitterHandle"
+			m_Color = [ 115, 115, 114, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "ScrollbarBackground"
+			m_Color = [ 46, 46, 46, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "MenuBackground"
+			m_Color = [ 46, 46, 46, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "HeaderSectionBackground"
+			m_Color = [ 35, 35, 35, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "HeaderSectionLine"
+			m_Color = [ 0, 0, 0, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "Black"
+			m_Color = [ 0, 0, 0, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "Red"
+			m_Color = [ 255, 90, 90, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "Green"
+			m_Color = [ 92, 192, 99, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "Blue"
+			m_Color = [ 96, 127, 193, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "CheckmarkPossible"
+			m_Color = [ 182, 182, 183, 50 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "FlatSelection"
+			m_Color = [ 79, 82, 89, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "InnerHighlight"
+			m_Color = [ 139, 155, 153, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "LighterLine"
+			m_Color = [ 57, 57, 57, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "UpperLine"
+			m_Color = [ 37, 37, 37, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "LowerLine"
+			m_Color = [ 81, 81, 81, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "DarkSplitter"
+			m_Color = [ 24, 24, 25, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "MenuGradientStart"
+			m_Color = [ 71, 71, 71, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "MenuGradientEnd"
+			m_Color = [ 29, 29, 29, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "MenuBarGradientStart"
+			m_Color = [ 67, 67, 67, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "MenuBarGradientEnd"
+			m_Color = [ 34, 34, 34, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "ToolButtonBackground"
+			m_Color = [ 50, 50, 50, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "ToolButtonBackground"
+			m_Color = [ 40, 40, 40, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "ToolButtonBackground"
+			m_Color = [ 40, 40, 40, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "ToolButtonBorder"
+			m_Color = [ 96, 96, 96, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "ToolButtonBorder"
+			m_Color = [ 80, 80, 80, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "ToolButtonBorder"
+			m_Color = [ 80, 80, 80, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "ToolButtonActiveBackground"
+			m_Color = [ 85, 85, 85, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "ToolButtonActiveBackground"
+			m_Color = [ 70, 70, 70, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "ToolButtonActiveBackground"
+			m_Color = [ 70, 70, 70, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "ToolButtonActiveBorder"
+			m_Color = [ 191, 119, 59, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "ToolButtonActiveBorder"
+			m_Color = [ 158, 104, 59, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "ToolButtonActiveBorder"
+			m_Color = [ 158, 104, 59, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "ToolBarBorderLight"
+			m_Color = [ 54, 54, 54, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "ToolBarBorderLight"
+			m_Color = [ 40, 40, 40, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "ToolBarBorderLight"
+			m_Color = [ 40, 40, 40, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "ToolBarBorderDark"
+			m_Color = [ 38, 38, 38, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "ToolBarBorderDark"
+			m_Color = [ 25, 25, 25, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "ToolBarBorderDark"
+			m_Color = [ 25, 25, 25, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "ToolBarBackground"
+			m_Color = [ 38, 38, 38, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "ToolBarBackground"
+			m_Color = [ 25, 25, 25, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "ToolBarBackground"
+			m_Color = [ 25, 25, 25, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "ViewportToolBarBorderLight"
+			m_Color = [ 75, 75, 75, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "ViewportToolBarBorderLight"
+			m_Color = [ 60, 60, 60, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "ViewportToolBarBorderLight"
+			m_Color = [ 60, 60, 60, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "ViewportToolBarBorderDark"
+			m_Color = [ 55, 55, 55, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "ViewportToolBarBorderDark"
+			m_Color = [ 40, 40, 40, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "ViewportToolBarBorderDark"
+			m_Color = [ 40, 40, 40, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "ButtonBackground"
+			m_Color = [ 64, 64, 64, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "ButtonBackground"
+			m_Color = [ 50, 50, 50, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "ButtonBackground"
+			m_Color = [ 50, 50, 50, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "ButtonBorder"
+			m_Color = [ 96, 96, 96, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "ButtonBorder"
+			m_Color = [ 85, 94, 113, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "ButtonBorder"
+			m_Color = [ 85, 94, 113, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "ButtonHighlight"
+			m_Color = [ 85, 94, 113, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "ButtonHighlight"
+			m_Color = [ 85, 94, 113, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "ButtonHighlight"
+			m_Color = [ 85, 94, 113, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "ButtonPressed"
+			m_Color = [ 72, 80, 97, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "ButtonPressed"
+			m_Color = [ 72, 80, 97, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "ButtonPressed"
+			m_Color = [ 72, 80, 97, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "ViewportBackground"
+			m_Color = [ 60, 60, 60, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "ViewportBackground"
+			m_Color = [ 60, 60, 60, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "ViewportBackground"
+			m_Color = [ 60, 60, 60, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "ViewportText"
+			m_Color = [ 230, 230, 230, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "ViewportText"
+			m_Color = [ 230, 230, 230, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "ViewportText"
+			m_Color = [ 230, 230, 230, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "DockWidgetTitleBackground"
+			m_Color = [ 24, 24, 24, 255 ]
+		},
+		{
+			m_nGroup = "Disabled"
+			m_nRole = "DockWidgetTitleBackground"
+			m_Color = [ 35, 35, 35, 255 ]
+		},
+		{
+			m_nGroup = "Inactive"
+			m_nRole = "DockWidgetTitleBackground"
+			m_Color = [ 35, 35, 35, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "TabBarBackgroundNotSelected"
+			m_Color = [ 42, 42, 42, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "DefaultButtonOuterBorder"
+			m_Color = [ 99, 102, 119, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "DefaultButtonInnerBorder"
+			m_Color = [ 81, 91, 93, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "DefaultButtonBackground"
+			m_Color = [ 61, 71, 73, 255 ]
+		},
+		{
+			m_nGroup = "Active"
+			m_nRole = "TabTextInactive"
+			m_Color = [ 152, 152, 153, 255 ]
+		},
+	]
+}
