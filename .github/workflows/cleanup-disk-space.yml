@@ -19,6 +19,6 @@ jobs:
           # sudo apt clean
           # docker rmi $(docker image ls -aq)
           sudo swapoff -a
-          sudo swapoff /swapfile
+          # sudo swapoff /swapfile
           sudo rm -rf /swapfile /usr/share/dotnet /usr/local/lib/android /opt/ghc
           df -h
