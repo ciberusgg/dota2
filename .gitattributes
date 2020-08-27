@@ -68,6 +68,7 @@
 *.ekv filter=lfs diff=lfs merge=lfs eol=lf -text
 *.3ds filter=lfs diff=lfs merge=lfs eol=lf -text
 *.icns filter=lfs diff=lfs merge=lfs eol=lf -text
+*.quest filter=lfs diff=lfs merge=lfs eol=lf -text # not sure about thes
 
 *.a filter=lfs diff=lfs merge=lfs eol=lf -text
 *.exr filter=lfs diff=lfs merge=lfs eol=lf -text
