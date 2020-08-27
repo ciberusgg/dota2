@@ -82,6 +82,13 @@
 *.dt filter=lfs diff=lfs merge=lfs eol=lf -text
 *.wad filter=lfs diff=lfs merge=lfs eol=lf -text
 *.WAD filter=lfs diff=lfs merge=lfs eol=lf -text
+*.vpd filter=lfs diff=lfs merge=lfs eol=lf -text
+*.vpd.sig filter=lfs diff=lfs merge=lfs eol=lf -text
+*.dat filter=lfs diff=lfs merge=lfs eol=lf -text
+*.bik filter=lfs diff=lfs merge=lfs eol=lf -text
+*.com filter=lfs diff=lfs merge=lfs eol=lf -text
+*.wc filter=lfs diff=lfs merge=lfs eol=lf -text
+*.txt.sig filter=lfs diff=lfs merge=lfs eol=lf -text
 
 *.a filter=lfs diff=lfs merge=lfs eol=lf -text
 *.exr filter=lfs diff=lfs merge=lfs eol=lf -text
@@ -95,6 +102,7 @@
 
 # Valve
 *.vpk filter=lfs diff=lfs merge=lfs eol=lf -text
+*.VPK filter=lfs diff=lfs merge=lfs eol=lf -text
 *.vdacdefs_c filter=lfs diff=lfs merge=lfs eol=lf -text
 *.vtex_c filter=lfs diff=lfs merge=lfs eol=lf -text
 *.vanim_c filter=lfs diff=lfs merge=lfs eol=lf -text
