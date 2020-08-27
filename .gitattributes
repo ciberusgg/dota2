@@ -54,6 +54,20 @@
 *.soc filter=lfs diff=lfs merge=lfs eol=lf -text
 *.ani filter=lfs diff=lfs merge=lfs eol=lf -text
 *.tmp filter=lfs diff=lfs merge=lfs eol=lf -text
+*.cab filter=lfs diff=lfs merge=lfs eol=lf -text
+*.dds filter=lfs diff=lfs merge=lfs eol=lf -text
+*.cur filter=lfs diff=lfs merge=lfs eol=lf -text
+*.swf filter=lfs diff=lfs merge=lfs eol=lf -text
+*.image filter=lfs diff=lfs merge=lfs eol=lf -text
+*.cache filter=lfs diff=lfs merge=lfs eol=lf -text
+*.pak filter=lfs diff=lfs merge=lfs eol=lf -text
+*.flt filter=lfs diff=lfs merge=lfs eol=lf -text
+*.asi filter=lfs diff=lfs merge=lfs eol=lf -text
+*.bsp filter=lfs diff=lfs merge=lfs eol=lf -text
+*.nav filter=lfs diff=lfs merge=lfs eol=lf -text
+*.ekv filter=lfs diff=lfs merge=lfs eol=lf -text
+*.3ds filter=lfs diff=lfs merge=lfs eol=lf -text
+*.icns filter=lfs diff=lfs merge=lfs eol=lf -text
 
 *.a filter=lfs diff=lfs merge=lfs eol=lf -text
 *.exr filter=lfs diff=lfs merge=lfs eol=lf -text
@@ -83,6 +97,8 @@
 *.vpdi_c filter=lfs diff=lfs merge=lfs eol=lf -text
 *.vcdlist_c filter=lfs diff=lfs merge=lfs eol=lf -text
 *.vrman_c filter=lfs diff=lfs merge=lfs eol=lf -text
+*.vfont filter=lfs diff=lfs merge=lfs eol=lf -text
+*.vfe filter=lfs diff=lfs merge=lfs eol=lf -text
 
 # Fonts
 *.otf filter=lfs diff=lfs merge=lfs eol=lf -text
