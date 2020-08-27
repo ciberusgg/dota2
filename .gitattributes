@@ -27,8 +27,11 @@
 *.psd filter=lfs diff=lfs merge=lfs eol=lf -text
 *.ai filter=lfs diff=lfs merge=lfs eol=lf -text
 *.bmp filter=lfs diff=lfs merge=lfs eol=lf -text
+*.BMP filter=lfs diff=lfs merge=lfs eol=lf -text
 *.ico filter=lfs diff=lfs merge=lfs eol=lf -text
 *.tga filter=lfs diff=lfs merge=lfs eol=lf -text
+*.spr filter=lfs diff=lfs merge=lfs eol=lf -text
+*.nod filter=lfs diff=lfs merge=lfs eol=lf -text
 
 # Audio
 *.mp3 filter=lfs diff=lfs merge=lfs eol=lf -text
@@ -44,6 +47,7 @@
 *.fbx filter=lfs diff=lfs merge=lfs eol=lf -text
 *.blend filter=lfs diff=lfs merge=lfs eol=lf -text
 *.obj filter=lfs diff=lfs merge=lfs eol=lf -text
+*.mdl filter=lfs diff=lfs merge=lfs eol=lf -text
 
 # ETC
 *.dll filter=lfs diff=lfs merge=lfs eol=lf -text
@@ -70,6 +74,14 @@
 *.icns filter=lfs diff=lfs merge=lfs eol=lf -text
 # not sure about thes shet
 *.quest filter=lfs diff=lfs merge=lfs eol=lf -text
+*.lmp filter=lfs diff=lfs merge=lfs eol=lf -text
+*.wad filter=lfs diff=lfs merge=lfs eol=lf -text
+*.dylib filter=lfs diff=lfs merge=lfs eol=lf -text
+*.so filter=lfs diff=lfs merge=lfs eol=lf -text
+*.hpk filter=lfs diff=lfs merge=lfs eol=lf -text
+*.dt filter=lfs diff=lfs merge=lfs eol=lf -text
+*.wad filter=lfs diff=lfs merge=lfs eol=lf -text
+*.WAD filter=lfs diff=lfs merge=lfs eol=lf -text
 
 *.a filter=lfs diff=lfs merge=lfs eol=lf -text
 *.exr filter=lfs diff=lfs merge=lfs eol=lf -text
