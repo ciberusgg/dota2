@@ -89,6 +89,11 @@
 *.com filter=lfs diff=lfs merge=lfs eol=lf -text
 *.wc filter=lfs diff=lfs merge=lfs eol=lf -text
 *.txt.sig filter=lfs diff=lfs merge=lfs eol=lf -text
+*.pwl.raw filter=lfs diff=lfs merge=lfs eol=lf -text
+*.sfk filter=lfs diff=lfs merge=lfs eol=lf -text
+*.raw filter=lfs diff=lfs merge=lfs eol=lf -text
+*.vtf.swatch filter=lfs diff=lfs merge=lfs eol=lf -text
+*.mix filter=lfs diff=lfs merge=lfs eol=lf -text
 
 *.a filter=lfs diff=lfs merge=lfs eol=lf -text
 *.exr filter=lfs diff=lfs merge=lfs eol=lf -text
@@ -121,6 +126,10 @@
 *.vrman_c filter=lfs diff=lfs merge=lfs eol=lf -text
 *.vfont filter=lfs diff=lfs merge=lfs eol=lf -text
 *.vfe filter=lfs diff=lfs merge=lfs eol=lf -text
+*.vtf filter=lfs diff=lfs merge=lfs eol=lf -text
+*.vtx filter=lfs diff=lfs merge=lfs eol=lf -text
+*.vcs filter=lfs diff=lfs merge=lfs eol=lf -text
+*.vbf filter=lfs diff=lfs merge=lfs eol=lf -text
 
 # Fonts
 *.otf filter=lfs diff=lfs merge=lfs eol=lf -text
@@ -129,3 +138,6 @@
 
 # Specific files
 game/dota_addons/aghanim/resource/flash3/images/items/stony_coat filter=lfs diff=lfs merge=lfs eol=lf -text
+bin/addoninstaller_osx filter=lfs diff=lfs merge=lfs eol=lf -text
+bin/dedicated/libgcc_s.so.1 filter=lfs diff=lfs merge=lfs eol=lf -text
+bin/dedicated/libstdc++.so.6 filter=lfs diff=lfs merge=lfs eol=lf -text
