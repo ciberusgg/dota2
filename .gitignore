@@ -2,7 +2,3 @@
 .env
 .env.build
 node_modules/
-
-# steamcmd
-./__steamcmd
-./__steamcmd_linux.tar.gz

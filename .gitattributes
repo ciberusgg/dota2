@@ -27,11 +27,8 @@
 *.psd filter=lfs diff=lfs merge=lfs eol=lf -text
 *.ai filter=lfs diff=lfs merge=lfs eol=lf -text
 *.bmp filter=lfs diff=lfs merge=lfs eol=lf -text
-*.BMP filter=lfs diff=lfs merge=lfs eol=lf -text
 *.ico filter=lfs diff=lfs merge=lfs eol=lf -text
 *.tga filter=lfs diff=lfs merge=lfs eol=lf -text
-*.spr filter=lfs diff=lfs merge=lfs eol=lf -text
-*.nod filter=lfs diff=lfs merge=lfs eol=lf -text
 
 # Audio
 *.mp3 filter=lfs diff=lfs merge=lfs eol=lf -text
@@ -47,7 +44,6 @@
 *.fbx filter=lfs diff=lfs merge=lfs eol=lf -text
 *.blend filter=lfs diff=lfs merge=lfs eol=lf -text
 *.obj filter=lfs diff=lfs merge=lfs eol=lf -text
-*.mdl filter=lfs diff=lfs merge=lfs eol=lf -text
 
 # ETC
 *.dll filter=lfs diff=lfs merge=lfs eol=lf -text
@@ -58,42 +54,6 @@
 *.soc filter=lfs diff=lfs merge=lfs eol=lf -text
 *.ani filter=lfs diff=lfs merge=lfs eol=lf -text
 *.tmp filter=lfs diff=lfs merge=lfs eol=lf -text
-*.cab filter=lfs diff=lfs merge=lfs eol=lf -text
-*.dds filter=lfs diff=lfs merge=lfs eol=lf -text
-*.cur filter=lfs diff=lfs merge=lfs eol=lf -text
-*.swf filter=lfs diff=lfs merge=lfs eol=lf -text
-*.image filter=lfs diff=lfs merge=lfs eol=lf -text
-*.cache filter=lfs diff=lfs merge=lfs eol=lf -text
-*.pak filter=lfs diff=lfs merge=lfs eol=lf -text
-*.flt filter=lfs diff=lfs merge=lfs eol=lf -text
-*.asi filter=lfs diff=lfs merge=lfs eol=lf -text
-*.bsp filter=lfs diff=lfs merge=lfs eol=lf -text
-*.nav filter=lfs diff=lfs merge=lfs eol=lf -text
-*.ekv filter=lfs diff=lfs merge=lfs eol=lf -text
-*.3ds filter=lfs diff=lfs merge=lfs eol=lf -text
-*.icns filter=lfs diff=lfs merge=lfs eol=lf -text
-# not sure about thes shet
-*.quest filter=lfs diff=lfs merge=lfs eol=lf -text
-*.lmp filter=lfs diff=lfs merge=lfs eol=lf -text
-*.wad filter=lfs diff=lfs merge=lfs eol=lf -text
-*.dylib filter=lfs diff=lfs merge=lfs eol=lf -text
-*.so filter=lfs diff=lfs merge=lfs eol=lf -text
-*.hpk filter=lfs diff=lfs merge=lfs eol=lf -text
-*.dt filter=lfs diff=lfs merge=lfs eol=lf -text
-*.wad filter=lfs diff=lfs merge=lfs eol=lf -text
-*.WAD filter=lfs diff=lfs merge=lfs eol=lf -text
-*.vpd filter=lfs diff=lfs merge=lfs eol=lf -text
-*.vpd.sig filter=lfs diff=lfs merge=lfs eol=lf -text
-*.dat filter=lfs diff=lfs merge=lfs eol=lf -text
-*.bik filter=lfs diff=lfs merge=lfs eol=lf -text
-*.com filter=lfs diff=lfs merge=lfs eol=lf -text
-*.wc filter=lfs diff=lfs merge=lfs eol=lf -text
-*.txt.sig filter=lfs diff=lfs merge=lfs eol=lf -text
-*.pwl.raw filter=lfs diff=lfs merge=lfs eol=lf -text
-*.sfk filter=lfs diff=lfs merge=lfs eol=lf -text
-*.raw filter=lfs diff=lfs merge=lfs eol=lf -text
-*.vtf.swatch filter=lfs diff=lfs merge=lfs eol=lf -text
-*.mix filter=lfs diff=lfs merge=lfs eol=lf -text
 
 *.a filter=lfs diff=lfs merge=lfs eol=lf -text
 *.exr filter=lfs diff=lfs merge=lfs eol=lf -text
@@ -107,7 +67,6 @@
 
 # Valve
 *.vpk filter=lfs diff=lfs merge=lfs eol=lf -text
-*.VPK filter=lfs diff=lfs merge=lfs eol=lf -text
 *.vdacdefs_c filter=lfs diff=lfs merge=lfs eol=lf -text
 *.vtex_c filter=lfs diff=lfs merge=lfs eol=lf -text
 *.vanim_c filter=lfs diff=lfs merge=lfs eol=lf -text
@@ -124,12 +83,6 @@
 *.vpdi_c filter=lfs diff=lfs merge=lfs eol=lf -text
 *.vcdlist_c filter=lfs diff=lfs merge=lfs eol=lf -text
 *.vrman_c filter=lfs diff=lfs merge=lfs eol=lf -text
-*.vfont filter=lfs diff=lfs merge=lfs eol=lf -text
-*.vfe filter=lfs diff=lfs merge=lfs eol=lf -text
-*.vtf filter=lfs diff=lfs merge=lfs eol=lf -text
-*.vtx filter=lfs diff=lfs merge=lfs eol=lf -text
-*.vcs filter=lfs diff=lfs merge=lfs eol=lf -text
-*.vbf filter=lfs diff=lfs merge=lfs eol=lf -text
 
 # Fonts
 *.otf filter=lfs diff=lfs merge=lfs eol=lf -text
@@ -138,6 +91,3 @@
 
 # Specific files
 game/dota_addons/aghanim/resource/flash3/images/items/stony_coat filter=lfs diff=lfs merge=lfs eol=lf -text
-bin/addoninstaller_osx filter=lfs diff=lfs merge=lfs eol=lf -text
-bin/dedicated/libgcc_s.so.1 filter=lfs diff=lfs merge=lfs eol=lf -text
-bin/dedicated/libstdc++.so.6 filter=lfs diff=lfs merge=lfs eol=lf -text
