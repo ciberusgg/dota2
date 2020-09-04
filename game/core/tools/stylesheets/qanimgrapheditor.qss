@@ -40,31 +40,6 @@ CQStateMachineEditorView {
 	border-width: 0px;
 }
 
-CQAnimTagEditorWidget {
-	padding: 0px; 
-	margin: 0px; 
-	border: 0px;
-}
-
-CQAnimTagTimelineWidget { 
-	padding: 0px; 
-	margin: 0px; 
-	border: 0px; 
-}
-
-CQAnimTagEditorWidget QFrame { 
-	padding: 0px; 
-	margin: 0px; 
-	border: 0px; 
-}
-
-CQAnimTagEditorWidget QAbstractItemView { 
-	padding: 0px; 
-	margin: 0px; 
-	border: 0px; 
-}
-
-
 QSplitter {
 	margin: 0px;
 	background: #1E1E1E; 
@@ -80,11 +55,6 @@ QSplitter::handle:horizontal
 QSplitter::handle:vertical { 
 	height:6px; 
 	background-color: #1E1E1E; 
-}
-
-CQAnimTagTimelineWidget QSplitter::handle:horizontal {
-	width: 4px;
-	background-color: QLinearGradient( x1 : 0, y1 : 0, x2 : 1, y2 : 0, stop : 0 #484848, stop: 1 #202020 );
 }
 
 QMainWindow::separator
@@ -329,7 +299,7 @@ QTableWidget#SettingsTable::item {
 }
 
 QTableWidget#SettingsTable::item::selected {
-	background-color: QLinearGradient( x1 : 0, y1 : 0, x2 : 0, y2 : 1, stop : 0 #6179B8, stop: 1 #37497b );
+	background-color: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #495665, stop: 1 #323D4C);
 }
 
 QTableWidget#SettingsTable QComboBox {
@@ -370,8 +340,20 @@ CQAnimGraphSearchBox
 	font-weight: bold;
 }
 
-QComboBox#ModelSelectionComboBox {
+QWidget#PreviewModelSettingsContainer {
 	background-color: QLinearGradient( x1 : 0, y1 : 0, x2 : 0, y2 : 1, stop : 0 #292929, stop: 1 #19191a );
+}
+
+QWidget#PreviewModelSettingsContainer CQModelConfigButtons {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding : 0px;
+}
+
+QWidget#PreviewModelSettingsContainer QComboBox#ModelSelectionComboBox {
+	background-color: transparent;
 	padding : 0px;
 	padding-left: 6px;
 	border: 0px solid transparent;
@@ -380,17 +362,17 @@ QComboBox#ModelSelectionComboBox {
 	margin-left: 0px;
 	margin-right: 0px;
 }
-QComboBox#ModelSelectionComboBox:pressed {
+QWidget#PreviewModelSettingsContainer QComboBox#ModelSelectionComboBox:pressed {
 	background-color: QLinearGradient( x1 : 0, y1 : 0, x2 : 0, y2 : 1, stop : 0 #373737, stop: 1 #4C4C4C );
 }
-QComboBox#ModelSelectionComboBox:on {
+QWidget#PreviewModelSettingsContainer QComboBox#ModelSelectionComboBox:on {
 	background-color: QLinearGradient( x1 : 0, y1 : 0, x2 : 0, y2 : 1, stop : 0 #373737, stop: 1 #4C4C4C );
 }
-QComboBox#ModelSelectionComboBox::drop-down {
+QWidget#PreviewModelSettingsContainer QComboBox#ModelSelectionComboBox::drop-down {
 	border-width: 0px;
 	width: 0px;
 }
-QComboBox#ModelSelectionComboBox::down-arrow {
+QWidget#PreviewModelSettingsContainer QComboBox#ModelSelectionComboBox::down-arrow {
 	image: url(noimg); 
 	border-width: 0px; 
 	width: 0px;
