@@ -1,12 +1,6 @@
- game/bin/built_from_cl.txt          |  2 +-
- game/bin/win32/vphysics2.dll        |  4 ++--
- game/bin/win64/assetpreview.dll     |  2 +-
- game/bin/win64/resourcecompiler.dll |  2 +-
- game/bin/win64/vphysics2.dll        |  2 +-
- game/dota/pak01_023.vpk             |  4 ++--
- game/dota/pak01_193.vpk             |  4 ++--
- game/dota/pak01_198.vpk             |  4 ++--
- game/dota/pak01_dir.vpk             |  2 +-
- game/dota/steam.inf                 |  8 ++++----
- steamapps/appmanifest_570.acf       | 28 ++++++++++++++--------------
- 11 files changed, 31 insertions(+), 31 deletions(-)
+ game/bin/built_from_cl.txt        |  2 +-
+ game/bin/win32/rendersystemgl.dll |  2 +-
+ game/bin/win64/rendersystemgl.dll |  2 +-
+ game/dota/steam.inf               |  8 ++++----
+ steamapps/appmanifest_570.acf     | 14 +++++++-------
+ 5 files changed, 14 insertions(+), 14 deletions(-)
