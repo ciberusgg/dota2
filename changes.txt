@@ -1,26 +1,8 @@
- game/bin/built_from_cl.txt                         |    2 +-
- game/bin/win32/particles.dll                       |    4 +-
- game/bin/win64/particles.dll                       |    4 +-
- .../panorama/localization/core_tools_latam.txt     |  278 ++--
- game/core/panorama/localization/panorama_latam.txt |  318 ++---
- game/core/resource/valve_latam.txt                 | 1360 ++++++++++----------
- game/dota/bin/win32/client.dll                     |    4 +-
- game/dota/bin/win32/server.dll                     |    4 +-
- game/dota/bin/win64/client.dll                     |    4 +-
- game/dota/bin/win64/server.dll                     |    4 +-
- game/dota/pak01_176.vpk                            |    4 +-
- game/dota/pak01_193.vpk                            |    4 +-
- game/dota/pak01_196.vpk                            |    4 +-
- game/dota/pak01_197.vpk                            |    4 +-
- game/dota/pak01_198.vpk                            |    4 +-
- game/dota/pak01_dir.vpk                            |    4 +-
- game/dota/scripts/npc/npc_heroes.txt               | 1269 +++++++++---------
- game/dota/steam.inf                                |   10 +-
- .../aghanim/readonly_tools_asset_info.bin          |    2 +-
- game/dota_addons/aghanim/resource/addon_danish.txt |    4 +
- game/dota_addons/aghanim/resource/addon_dutch.txt  |    2 +
- .../dota_addons/aghanim/resource/addon_spanish.txt |   36 +-
- .../dota_addons/aghanim/resource/addon_swedish.txt |   22 +
- .../aghanim/resource/addon_tchinese.txt            |   14 +
- steamapps/appmanifest_570.acf                      |   26 +-
- 25 files changed, 1719 insertions(+), 1672 deletions(-)
+ game/bin/built_from_cl.txt    |  2 +-
+ game/dota/pak01_195.vpk       |  4 ++--
+ game/dota/pak01_196.vpk       |  4 ++--
+ game/dota/pak01_198.vpk       |  4 ++--
+ game/dota/pak01_dir.vpk       |  2 +-
+ game/dota/steam.inf           |  8 ++++----
+ steamapps/appmanifest_570.acf | 18 +++++++++---------
+ 7 files changed, 21 insertions(+), 21 deletions(-)
