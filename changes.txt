@@ -1,8 +1,13 @@
- game/bin/built_from_cl.txt    |  2 +-
- game/dota/pak01_195.vpk       |  4 ++--
- game/dota/pak01_196.vpk       |  4 ++--
- game/dota/pak01_198.vpk       |  4 ++--
- game/dota/pak01_dir.vpk       |  2 +-
- game/dota/steam.inf           |  8 ++++----
- steamapps/appmanifest_570.acf | 18 +++++++++---------
- 7 files changed, 21 insertions(+), 21 deletions(-)
+ game/bin/built_from_cl.txt           |   2 +-
+ game/dota/pak01_028.vpk              |   4 +-
+ game/dota/pak01_109.vpk              |   4 +-
+ game/dota/pak01_176.vpk              |   4 +-
+ game/dota/pak01_195.vpk              |   4 +-
+ game/dota/pak01_198.vpk              |   4 +-
+ game/dota/pak01_199.vpk              |   3 +
+ game/dota/pak01_dir.vpk              |   2 +-
+ game/dota/scripts/npc/npc_heroes.txt | 942 +++++++++++++++++------------------
+ game/dota/steam.inf                  |  10 +-
+ steamapps/appmanifest_570.acf        |  22 +-
+ steamapps/libraryfolders.vdf         |   2 +-
+ 12 files changed, 503 insertions(+), 500 deletions(-)
