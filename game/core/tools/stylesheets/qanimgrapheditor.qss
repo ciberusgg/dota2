@@ -323,7 +323,7 @@ QTableWidget#SettingsTable QComboBox::drop-down {
 	width: 0px;
 }
 QTableWidget#SettingsTable QComboBox::down-arrow {
-	image: url(noimg); 
+	image: url(); 
 	border-width: 0px; 
 	width: 0px;
 }
@@ -373,7 +373,7 @@ QWidget#PreviewModelSettingsContainer QComboBox#ModelSelectionComboBox::drop-dow
 	width: 0px;
 }
 QWidget#PreviewModelSettingsContainer QComboBox#ModelSelectionComboBox::down-arrow {
-	image: url(noimg); 
+	image: url(); 
 	border-width: 0px; 
 	width: 0px;
 }

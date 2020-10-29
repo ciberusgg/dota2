@@ -1,0 +1,111 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	windowTitle = "Outliner"
+	actions = 
+	[
+		{
+			class = "CQBindableCommandAction"
+			name = "act_add"
+			binding = "session:AddNode"
+			text = "Add Node"
+			mode = "BUTTON"
+			icon = "tools/images/common/add_sm.png"
+		},
+		{
+			class = "CQBindableCommandAction"
+			name = "act_remove"
+			binding = "session:RemoveSelectedNodes"
+			text = "Remove Node(s)"
+			mode = "BUTTON"
+			icon = "tools/images/common/delete_sm.png"
+		},
+		{
+			class = "CQBindableCommandAction"
+			name = "act_rename"
+			binding = "session:RenameNode"
+			text = "Rename Node"
+			mode = "BUTTON"
+			icon = "tools/images/common/control_step_fwd_sm.png"
+		},
+		{
+			class = "CQBindableCommandAction"
+			name = "act_cut"
+			binding = "session:Cut"
+			text = "Cut"
+			mode = "BUTTON"
+			icon = "tools/images/common/cut.png"
+		},
+		{
+			class = "CQBindableCommandAction"
+			name = "act_copy"
+			binding = "session:Copy"
+			text = "Copy"
+			mode = "BUTTON"
+			icon = "tools/images/common/copy.png"
+		},
+		{
+			class = "CQBindableCommandAction"
+			name = "act_paste"
+			binding = "session:Paste"
+			text = "Paste"
+			mode = "BUTTON"
+			icon = "tools/images/common/paste.png"
+		},
+		{
+			class = "CQBindableCommandAction"
+			name = "act_duplicate"
+			binding = "session:DuplicateSelection"
+			text = "Duplicate"
+			mode = "BUTTON"
+			icon = "tools/images/common/duplicate.png"
+		},
+		{
+			class = "CQBindableCommandAction"
+			name = "act_change_node"
+			binding = "session:ChangeSelectionClass"
+			text = "Change Node Type"
+			mode = "BUTTON"
+			icon = "tools/images/vdata_editor/change_type.png"
+		},
+		{
+			class = "CQBindableCommandAction"
+			name = "act_change_document"
+			binding = "session:ChangeDocumentType"
+			text = "Change Document Type"
+			mode = "BUTTON"
+			icon = "tools/images/common/edit.png"
+		},
+	]
+	vbox = 
+	[
+		{
+			widget = "QToolBar"
+			actions = 
+			[
+				"act_add",
+				"act_remove",
+				"act_rename",
+				{
+					separator = true
+				},
+				"act_cut",
+				"act_copy",
+				"act_paste",
+				{
+					separator = true
+				},
+				"act_change_node",
+			]
+		},
+		{
+			widget = "QLineEdit"
+			name = "outliner_filter"
+			placeholderText = "(Outliner Filter)"
+		},
+		{
+			widget = "QWidget"
+			name = "outliner_tree_parent"
+			stretch = 1
+		},
+	]
+}

@@ -163,7 +163,7 @@ QComboBox#TimeModeComboBox::drop-down {
 	width: 0px;
 }
 QComboBox#TimeModeComboBox::down-arrow {
-	image: url(noimg); 
+	image: url(); 
 	border-width: 0px; 
 	width: 0px;
 }

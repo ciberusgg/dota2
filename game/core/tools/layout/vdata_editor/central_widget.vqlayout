@@ -1,0 +1,70 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	vbox =
+	[
+		{
+			hbox =
+			[
+				{stretch = 1 },
+				{
+					widget = "QLabel"
+					text = "Document Type:"
+					fontstyle = "12px bold"
+				},
+				{
+					widget = "QLabel"
+					name = "document_type_label"
+					text = ""
+					fontstyle = "14px bold"
+					align = "left"
+					foreground = [178, 204, 222]
+				},
+				{
+					widget = "CQBindableCommandToolButton"
+					name = "change_document_type"
+					binding="session:ChangeDataType"
+					text = "Change Document Type"
+					mode = "COMMAND_TEXT_MODE_BUTTON"
+					iconSize = [16,16]
+					icon = "tools/images/common/edit.png"
+				},
+			]
+		},
+		{
+			widget = "QWidget"
+			name = "node_type_parent"
+			hbox =
+			[
+				{stretch = 1 },
+				{
+					widget = "QLabel"
+					text = "Node Type:"
+					fontstyle = "12px bold"
+				},
+				{
+					widget = "QLabel"
+					name = "node_type_label"
+					text = ""
+					fontstyle = "14px bold"
+					align = "left"
+					foreground = [178, 204, 222]
+				},
+				{
+					widget = "CQBindableCommandToolButton"
+					name = "change_node_type"
+					binding="session:ChangeSelectionClass"
+					text = "Change Document Type"
+					mode = "COMMAND_TEXT_MODE_BUTTON"
+					iconSize = [16,16]
+					icon = "tools/images/vdata_editor/change_type.png"
+				},
+			]
+		},
+		{
+			widget = "QWidget"
+			name = "property_editor_parent"
+			stretch = 1
+		},
+	]
+}
+
