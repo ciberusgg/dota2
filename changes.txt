@@ -30,6 +30,6 @@
  ...k_radiant_pudge_black_death_rot_radius_d.vpcf_c |  4 ++--
  .../diretide2020/readonly_tools_asset_info.bin     |  2 +-
  .../vscripts/abilities/hero_candy_bucket.lua       |  2 +-
- .../gameplay/modifier_hero_candy_bucket.lua        | 28 ++++++++++++++++++----
+ .../gameplay/modifier_hero_candy_bucket.lua        | 28 ++++------------------
  steamapps/appmanifest_570.acf                      | 26 ++++++++++----------
- 34 files changed, 95 insertions(+), 77 deletions(-)
+ 34 files changed, 77 insertions(+), 95 deletions(-)
