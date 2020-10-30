@@ -1,19 +1,17 @@
- game/bin/built_from_cl.txt                         |   2 +-
- game/bin/win32/networksystem.dll                   |   2 +-
- game/bin/win64/networksystem.dll                   |   2 +-
- game/dota/bin/win32/client.dll                     |   4 ++--
- game/dota/bin/win32/server.dll                     |   4 ++--
- game/dota/bin/win64/client.dll                     |   4 ++--
- game/dota/bin/win64/server.dll                     |   4 ++--
- game/dota/pak01_183.vpk                            |   4 ++--
- game/dota/pak01_201.vpk                            |   4 ++--
- game/dota/pak01_208.vpk                            |   4 ++--
- game/dota/pak01_dir.vpk                            |   2 +-
- game/dota/steam.inf                                |   8 +++----
- .../custom_game/diretide_pregame_strategy.vjs_c    | Bin 3044 -> 3078 bytes
- .../diretide2020/readonly_tools_asset_info.bin     |   2 +-
- .../diretide2020/resource/addon_english.txt        |   1 +
- .../diretide2020/scripts/npc/npc_units_custom.txt  |   6 +++++
- .../vscripts/abilities/hero_candy_bucket.lua       |   6 +++++
- steamapps/appmanifest_570.acf                      |  26 ++++++++++-----------
- 18 files changed, 49 insertions(+), 36 deletions(-)
+ game/bin/built_from_cl.txt                         |  2 +-
+ game/dota/bin/win32/client.dll                     |  4 +--
+ game/dota/bin/win32/server.dll                     |  4 +--
+ game/dota/bin/win64/client.dll                     |  4 +--
+ game/dota/bin/win64/server.dll                     |  4 +--
+ game/dota/pak01_094.vpk                            |  4 +--
+ game/dota/pak01_183.vpk                            |  4 +--
+ game/dota/pak01_208.vpk                            |  4 +--
+ game/dota/pak01_dir.vpk                            |  2 +-
+ game/dota/steam.inf                                |  8 +++---
+ .../vscripts/abilities/hero_candy_bucket.lua       |  7 ++++-
+ .../scripts/vscripts/addon_game_mode.lua           | 17 +++++++-----
+ .../diretide2020/scripts/vscripts/ai/roshan.lua    |  2 ++
+ .../scripts/vscripts/diretide_events.lua           | 30 ++++++++++------------
+ .../scripts/vscripts/diretide_think.lua            |  2 +-
+ steamapps/appmanifest_570.acf                      | 26 +++++++++----------
+ 16 files changed, 66 insertions(+), 58 deletions(-)
