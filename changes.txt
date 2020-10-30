@@ -1,9 +1,6 @@
- game/bin/built_from_cl.txt                         |  2 +-
- game/dota/pak01_002.vpk                            |  4 ++--
- game/dota/pak01_094.vpk                            |  4 ++--
- game/dota/pak01_208.vpk                            |  4 ++--
- game/dota/pak01_dir.vpk                            |  2 +-
- game/dota/steam.inf                                |  8 ++++----
- .../scripts/vscripts/addon_game_mode.lua           |  2 +-
- steamapps/appmanifest_570.acf                      | 22 +++++++++++-----------
- 8 files changed, 24 insertions(+), 24 deletions(-)
+ game/bin/built_from_cl.txt     |  2 +-
+ game/dota/bin/win32/server.dll |  4 ++--
+ game/dota/bin/win64/server.dll |  4 ++--
+ game/dota/steam.inf            |  8 ++++----
+ steamapps/appmanifest_570.acf  | 20 ++++++++++----------
+ 5 files changed, 19 insertions(+), 19 deletions(-)
