@@ -1,11 +1,20 @@
- game/bin/built_from_cl.txt     |  2 +-
- game/dota/bin/win32/client.dll |  2 +-
- game/dota/bin/win32/server.dll |  2 +-
- game/dota/bin/win64/client.dll |  4 ++--
- game/dota/bin/win64/server.dll |  2 +-
- game/dota/shaders_pc_006.vpk   |  4 ++--
- game/dota/shaders_pc_dir.vpk   |  2 +-
- game/dota/steam.inf            | 10 +++++-----
- steamapps/appmanifest_570.acf  | 20 ++++++++++----------
- steamapps/libraryfolders.vdf   |  2 +-
- 10 files changed, 25 insertions(+), 25 deletions(-)
+ game/bin/built_from_cl.txt                         |  2 +-
+ game/bin/win32/localize.dll                        |  2 +-
+ game/bin/win32/panorama.dll                        |  4 ++--
+ game/bin/win64/localize.dll                        |  2 +-
+ game/bin/win64/panorama.dll                        |  4 ++--
+ game/dota/bin/win32/client.dll                     |  4 ++--
+ game/dota/bin/win32/server.dll                     |  4 ++--
+ game/dota/bin/win64/client.dll                     |  4 ++--
+ game/dota/bin/win64/server.dll                     |  4 ++--
+ game/dota/pak01_115.vpk                            |  4 ++--
+ game/dota/pak01_176.vpk                            |  4 ++--
+ game/dota/pak01_196.vpk                            |  4 ++--
+ game/dota/pak01_199.vpk                            |  4 ++--
+ game/dota/pak01_208.vpk                            |  4 ++--
+ game/dota/pak01_209.vpk                            |  4 ++--
+ game/dota/pak01_dir.vpk                            |  2 +-
+ game/dota/steam.inf                                | 10 ++++-----
+ .../vscripts/abilities/hero_candy_bucket.lua       |  4 ++--
+ steamapps/appmanifest_570.acf                      | 26 +++++++++++-----------
+ 19 files changed, 48 insertions(+), 48 deletions(-)
