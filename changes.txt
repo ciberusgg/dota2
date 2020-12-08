@@ -1,9 +1,22 @@
- game/bin/built_from_cl.txt                |  2 +-
- game/dota/maps/scenes/hero_level_icon.vpk |  4 ++--
- game/dota/pak01_109.vpk                   |  4 ++--
- game/dota/pak01_206.vpk                   |  4 ++--
- game/dota/pak01_209.vpk                   |  4 ++--
- game/dota/pak01_dir.vpk                   |  4 ++--
- game/dota/steam.inf                       |  8 ++++----
- steamapps/appmanifest_570.acf             | 20 ++++++++++----------
- 8 files changed, 25 insertions(+), 25 deletions(-)
+ game/bin/built_from_cl.txt                         |   2 +-
+ .../panorama/localization/core_tools_bulgarian.txt |  28 ++
+ .../panorama/localization/core_tools_russian.txt   | 278 +++++++++----------
+ .../panorama/localization/panorama_bulgarian.txt   |   2 +
+ game/core/resource/valve_bulgarian.txt             |  18 +-
+ game/dota/bin/win32/client.dll                     |   2 +-
+ game/dota/bin/win32/server.dll                     |   4 +-
+ game/dota/bin/win64/client.dll                     |   2 +-
+ game/dota/bin/win64/server.dll                     |   2 +-
+ game/dota/pak01_153.vpk                            |   4 +-
+ game/dota/pak01_196.vpk                            |   4 +-
+ game/dota/pak01_209.vpk                            |   4 +-
+ game/dota/pak01_dir.vpk                            |   4 +-
+ game/dota/steam.inf                                |  10 +-
+ .../diretide2020/readonly_tools_asset_info.bin     |   2 +-
+ .../diretide2020/resource/addon_bulgarian.txt      |   4 +
+ .../diretide2020/resource/addon_danish.txt         |  56 ++++
+ .../diretide2020/resource/addon_dutch.txt          |  16 ++
+ .../diretide2020/resource/addon_turkish.txt        | 303 +++++++++++++++++++++
+ steamapps/appmanifest_570.acf                      |  26 +-
+ steamapps/libraryfolders.vdf                       |   2 +-
+ 21 files changed, 586 insertions(+), 187 deletions(-)
