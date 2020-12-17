@@ -22,41 +22,11 @@
 				{
 					widget = "CQBindableCommandToolButton"
 					name = "change_document_type"
-					binding="session:ChangeDataType"
+					binding="session:ChangeDocumentType"
 					text = "Change Document Type"
 					mode = "COMMAND_TEXT_MODE_BUTTON"
 					iconSize = [16,16]
 					icon = "tools/images/common/edit.png"
-				},
-			]
-		},
-		{
-			widget = "QWidget"
-			name = "node_type_parent"
-			hbox =
-			[
-				{stretch = 1 },
-				{
-					widget = "QLabel"
-					text = "Node Type:"
-					fontstyle = "12px bold"
-				},
-				{
-					widget = "QLabel"
-					name = "node_type_label"
-					text = ""
-					fontstyle = "14px bold"
-					align = "left"
-					foreground = [178, 204, 222]
-				},
-				{
-					widget = "CQBindableCommandToolButton"
-					name = "change_node_type"
-					binding="session:ChangeSelectionClass"
-					text = "Change Document Type"
-					mode = "COMMAND_TEXT_MODE_BUTTON"
-					iconSize = [16,16]
-					icon = "tools/images/vdata_editor/change_type.png"
 				},
 			]
 		},
