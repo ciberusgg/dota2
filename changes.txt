@@ -1,13 +1,25 @@
- game/bin/built_from_cl.txt     |  2 +-
- game/dota/bin/win32/client.dll |  2 +-
- game/dota/bin/win32/server.dll |  2 +-
- game/dota/bin/win64/client.dll |  2 +-
- game/dota/bin/win64/server.dll |  2 +-
- game/dota/pak01_136.vpk        |  4 ++--
- game/dota/pak01_203.vpk        |  4 ++--
- game/dota/pak01_215.vpk        |  4 ++--
- game/dota/pak01_dir.vpk        |  2 +-
- game/dota/steam.inf            |  8 ++++----
- steamapps/appmanifest_570.acf  | 22 +++++++++++-----------
- steamapps/libraryfolders.vdf   |  2 +-
- 12 files changed, 28 insertions(+), 28 deletions(-)
+ game/bin/built_from_cl.txt                         |  2 +-
+ game/bin/win32/engine2.dll                         |  4 ++--
+ game/bin/win32/panorama.dll                        |  4 ++--
+ game/bin/win32/steamaudio.dll                      |  2 +-
+ game/bin/win64/assetpreview.dll                    |  2 +-
+ game/bin/win64/engine2.dll                         |  4 ++--
+ game/bin/win64/panorama.dll                        |  4 ++--
+ game/bin/win64/resourcecompiler.dll                |  2 +-
+ game/bin/win64/steamaudio.dll                      |  2 +-
+ game/bin/win64/vconsole2.exe                       |  2 +-
+ game/dota/bin/win32/client.dll                     |  4 ++--
+ game/dota/bin/win32/server.dll                     |  4 ++--
+ game/dota/bin/win64/client.dll                     |  4 ++--
+ game/dota/bin/win64/server.dll                     |  4 ++--
+ game/dota/pak01_127.vpk                            |  4 ++--
+ game/dota/pak01_162.vpk                            |  4 ++--
+ game/dota/pak01_215.vpk                            |  4 ++--
+ game/dota/pak01_dir.vpk                            |  4 ++--
+ .../{mistwoods_en.webm => mistwoods_english.webm}  |  0
+ .../{mistwoods_ru.webm => mistwoods_russian.webm}  |  0
+ .../{mistwoods_cn.webm => mistwoods_schinese.webm} |  0
+ game/dota/scripts/npc/npc_abilities.txt            |  4 +++-
+ game/dota/steam.inf                                | 10 ++++-----
+ steamapps/appmanifest_570.acf                      | 26 +++++++++++-----------
+ 24 files changed, 51 insertions(+), 49 deletions(-)
