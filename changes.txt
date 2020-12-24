@@ -90,12 +90,20 @@
  game/bin/win64/vr.dll                           |  2 +-
  game/bin/win64/vscript.dll                      |  2 +-
  game/bin/win64/worldrenderer.dll                |  2 +-
- game/dota/bin/win32/client.dll                  |  2 +-
+ game/core/resource/valve_bulgarian.txt          | 18 ++++++++++++++++
+ game/dota/bin/win32/client.dll                  |  4 ++--
  game/dota/bin/win32/host.dll                    |  2 +-
- game/dota/bin/win32/server.dll                  |  2 +-
+ game/dota/bin/win32/server.dll                  |  4 ++--
  game/dota/bin/win64/client.dll                  |  2 +-
  game/dota/bin/win64/host.dll                    |  2 +-
- game/dota/bin/win64/server.dll                  |  2 +-
- game/dota/steam.inf                             |  8 ++++----
- steamapps/appmanifest_570.acf                   | 14 +++++++-------
- 100 files changed, 109 insertions(+), 109 deletions(-)
+ game/dota/bin/win64/server.dll                  |  4 ++--
+ game/dota/pak01_020.vpk                         |  4 ++--
+ game/dota/pak01_144.vpk                         |  4 ++--
+ game/dota/pak01_213.vpk                         |  4 ++--
+ game/dota/pak01_214.vpk                         |  4 ++--
+ game/dota/pak01_215.vpk                         |  3 +++
+ game/dota/pak01_dir.vpk                         |  2 +-
+ game/dota/steam.inf                             |  8 +++----
+ steamapps/appmanifest_570.acf                   | 28 ++++++++++++-------------
+ steamapps/libraryfolders.vdf                    |  2 +-
+ 108 files changed, 150 insertions(+), 129 deletions(-)
