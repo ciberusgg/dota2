@@ -13,6 +13,14 @@
 		},
 		{
 			class = "CQBindableCommandAction"
+			name = "act_add_override"
+			binding = "session:AddOverrideNode"
+			text = "Override Node"
+			mode = "BUTTON"
+			icon = "tools/images/common/eyedropper.png"
+		},
+		{
+			class = "CQBindableCommandAction"
 			name = "act_remove"
 			binding = "session:RemoveSelectedNodes"
 			text = "Remove Node(s)"
@@ -57,7 +65,7 @@
 			binding = "session:DuplicateSelection"
 			text = "Duplicate"
 			mode = "BUTTON"
-			icon = "tools/images/common/duplicate.png"
+			icon = "tools/images/common/repeat_multiple.png"
 		},
 		{
 			class = "CQBindableCommandAction"
@@ -83,6 +91,7 @@
 			actions = 
 			[
 				"act_add",
+				"act_add_override",
 				"act_remove",
 				"act_rename",
 				{
@@ -91,6 +100,10 @@
 				"act_cut",
 				"act_copy",
 				"act_paste",
+				{
+					separator = true
+				},
+				"act_duplicate",
 				{
 					separator = true
 				},

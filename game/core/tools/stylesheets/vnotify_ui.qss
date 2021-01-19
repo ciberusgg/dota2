@@ -1,0 +1,196 @@
+#NotificationPopup
+{
+	background: transparent;
+	min-width: 400px;
+	max-width: 400px;
+}
+
+#OverflowWindow
+{
+	background: QLinearGradient(x1: 0, y1: 0, x2: 2, y2: 1, stop: 0 #2A2A2A, stop: 1 #444444);
+	min-width: 400px;
+}
+
+#NotificationGroup
+{
+	border: 2px solid #2E2E2E;
+	border-radius: 5px;
+	margin: 2px;
+	padding: 8px;
+	background: QLinearGradient(x1: 0, y1: 0, x2: 2, y2: 1, stop: 0 #2A2A2A, stop: 1 #444444);
+}
+
+#OverflowIndicator
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+#SourceLink
+{
+	text-decoration: underline;
+	font-weight: bold;
+	color: lightblue;
+	background: transparent;
+	margin: 0px;
+	text-align: right;
+}
+
+#SourceLink:hover
+{
+	color: white;
+}
+
+#OverflowLink
+{
+	text-decoration: underline;
+	font-weight: bold;
+	color: lightblue;
+	font-size: 11pt;
+	background: transparent;
+	margin: 0px;
+	text-align: left;
+}
+
+#OverflowLink:hover
+{
+	color: white;
+}
+
+#GroupTitle
+{
+	font-weight: bold;
+	font-size: 9pt;
+	alignment: right;
+	margin-left: 0px;
+	margin-bottom: 4px;
+}
+
+
+#MessageLabel
+{
+	color: #959595;
+	margin-bottom: 2px;
+}
+
+#MessageBlock[MostRecentMessage="true"] #MessageLabel
+{
+	color: #ffffff;
+}
+
+#CloseButton
+{
+	min-width: 18px;
+	max-width: 18px;
+	min-height: 18px;
+	max-height: 18px;
+	background: transparent;
+	image: url(tools:images/vnotify/close_button.png);
+}
+
+#CloseButton:hover
+{
+	image: url(tools:images/vnotify/close_button_hover.png);
+}
+
+QScrollArea QWidget
+{
+	background: transparent;
+}
+
+QScrollArea
+{
+	background: transparent;
+	border: none;
+}
+
+QScrollBar {
+    border: 2px solid grey;
+	width: 14px;
+    background: red;
+}
+
+QScrollBar::handle {
+    background: white;
+}
+
+QScrollBar::add-line {
+    background: transparent;
+}
+
+QScrollBar::sub-line {
+    background: transparent;
+}
+
+/* ------------------ DEFAULT STYLES (INFO) ------------------ */
+
+#GroupTitle 
+{
+	color: #FFFFFF;
+}
+
+#GroupStatusIcon
+{
+	image: url(tools:images/vnotify/vnotify_info.png);
+	min-width: 20px;
+	max-width: 20px;
+	min-height: 20px;
+	max-height: 20px;
+	margin-left: 4px;
+}
+
+#BusyIcon
+{
+	min-width: 20px;
+	max-width: 20px;
+	min-height: 20px;
+	max-height: 20px;
+	margin-left: 3px;
+}
+
+#NotificationGroup[IsFinished="true"][ErrorEncountered="false"][WarningEncountered="false"],
+#AllMessagesPopup[IsFinished="true"][ErrorEncountered="false"][WarningEncountered="false"]
+{
+	background: QLinearGradient(x1: .5, y1: 0, x2: .5, y2: 1, stop: 0 #353535, stop: 1 #202020);
+}
+
+
+/* ------------------ SUCCESS STYLES ------------------ */
+
+#NotificationHeader[IsFinished="true"][ErrorEncountered="false"][WarningEncountered="false"] #GroupStatusIcon
+{
+	image: url(tools:images/vnotify/vnotify_success.png);
+}
+
+#NotificationHeader[IsFinished="true"][ErrorEncountered="false"][WarningEncountered="false"] #GroupTitle 
+{
+	color: #26D76E;
+}
+
+
+/* ------------------ WARNING STYLES ------------------ */
+
+#NotificationHeader[WarningEncountered="true"][ErrorEncountered="false"] #GroupTitle 
+{
+	color: #FCD136;
+}
+
+#NotificationHeader[WarningEncountered="true"][ErrorEncountered="false"] #GroupStatusIcon
+{
+	image: url(tools:images/vnotify/vnotify_warning.png);
+}
+
+/* ------------------ ERROR STYLES ------------------ */
+
+#NotificationHeader[ErrorEncountered="true"] #GroupTitle 
+{
+	color: #F24545;
+}
+
+#NotificationHeader[ErrorEncountered="true"] #GroupStatusIcon
+{
+	image: url(tools:images/vnotify/vnotify_error.png);
+}
+
+

@@ -186,6 +186,14 @@ QToolBar QLabel {
 	margin-left: 5px;
 }
 
+QPushButton#NodePathArrow {
+	width: 8px;
+}
+
+QPushButton#NodePathArrow::menu-indicator {
+	image: url();
+}
+
 QScrollBar:horizontal { 
 	background: #484848; 
 	height: 14px; 
