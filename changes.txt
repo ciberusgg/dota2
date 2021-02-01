@@ -1,16 +1,17 @@
- game/bin/built_from_cl.txt     |  2 +-
- game/bin/win32/cairo.dll       |  3 +++
- game/bin/win64/cairo.dll       |  3 +++
- game/dota/bin/win32/client.dll |  4 ++--
- game/dota/bin/win32/server.dll |  2 +-
- game/dota/bin/win64/client.dll |  4 ++--
- game/dota/bin/win64/server.dll |  4 ++--
- game/dota/pak01_014.vpk        |  4 ++--
- game/dota/pak01_018.vpk        |  4 ++--
- game/dota/pak01_146.vpk        |  4 ++--
- game/dota/pak01_196.vpk        |  4 ++--
- game/dota/pak01_214.vpk        |  4 ++--
- game/dota/pak01_dir.vpk        |  4 ++--
- game/dota/steam.inf            |  8 ++++----
- steamapps/appmanifest_570.acf  | 30 +++++++++++++++---------------
- 15 files changed, 45 insertions(+), 39 deletions(-)
+ game/bin/built_from_cl.txt             |  2 +-
+ game/bin/win32/panorama.dll            |  4 ++--
+ game/bin/win32/panorama_text_pango.dll |  2 +-
+ game/bin/win64/panorama.dll            |  4 ++--
+ game/bin/win64/panorama_text_pango.dll |  2 +-
+ game/dota/bin/win32/client.dll         |  4 ++--
+ game/dota/bin/win32/server.dll         |  2 +-
+ game/dota/bin/win64/client.dll         |  4 ++--
+ game/dota/bin/win64/server.dll         |  2 +-
+ game/dota/pak01_144.vpk                |  4 ++--
+ game/dota/pak01_188.vpk                |  4 ++--
+ game/dota/pak01_214.vpk                |  4 ++--
+ game/dota/pak01_215.vpk                |  3 +++
+ game/dota/pak01_dir.vpk                |  4 ++--
+ game/dota/steam.inf                    | 10 +++++-----
+ steamapps/appmanifest_570.acf          | 26 +++++++++++++-------------
+ 16 files changed, 42 insertions(+), 39 deletions(-)
