@@ -1,20 +1,10 @@
- game/bin/built_from_cl.txt          |  2 +-
- game/bin/win32/engine2.dll          |  2 +-
- game/bin/win32/steamaudio.dll       |  2 +-
- game/bin/win64/assetpreview.dll     |  2 +-
- game/bin/win64/engine2.dll          |  4 ++--
- game/bin/win64/resourcecompiler.dll |  2 +-
- game/bin/win64/steamaudio.dll       |  2 +-
- game/bin/win64/vconsole2.exe        |  2 +-
- game/dota/bin/win32/client.dll      |  4 ++--
- game/dota/bin/win32/server.dll      |  4 ++--
- game/dota/bin/win64/client.dll      |  4 ++--
- game/dota/bin/win64/server.dll      |  4 ++--
- game/dota/pak01_094.vpk             |  4 ++--
- game/dota/pak01_213.vpk             |  4 ++--
- game/dota/pak01_215.vpk             |  3 ---
- game/dota/pak01_dir.vpk             |  4 ++--
- game/dota/steam.inf                 | 10 +++++-----
- steamapps/appmanifest_570.acf       | 26 +++++++++++++-------------
- steamapps/libraryfolders.vdf        |  2 +-
- 19 files changed, 42 insertions(+), 45 deletions(-)
+ game/bin/built_from_cl.txt     |  2 +-
+ game/dota/bin/win32/client.dll |  4 ++--
+ game/dota/bin/win64/client.dll |  4 ++--
+ game/dota/pak01_188.vpk        |  4 ++--
+ game/dota/pak01_213.vpk        |  4 ++--
+ game/dota/pak01_214.vpk        |  4 ++--
+ game/dota/pak01_dir.vpk        |  4 ++--
+ game/dota/steam.inf            | 10 +++++-----
+ steamapps/appmanifest_570.acf  | 26 +++++++++++++-------------
+ 9 files changed, 31 insertions(+), 31 deletions(-)
