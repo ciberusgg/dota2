@@ -1,10 +1,9 @@
- game/bin/built_from_cl.txt                             |  2 +-
- game/dota/maps/dota_ti10.vpk                           |  4 ++--
- game/dota/steam.inf                                    |  8 ++++----
- game/dota_addons/aghanim/maps/defend_highground.vpk    |  4 ++--
- .../aghanim/maps/defend_highground_chickens.vpk        |  4 ++--
- game/dota_addons/aghanim/maps/dire_trading_post.vpk    |  4 ++--
- game/dota_addons/aghanim/maps/fodder_arena2.vpk        |  4 ++--
- game/dota_addons/aghanim/readonly_tools_asset_info.bin |  4 ++--
- steamapps/appmanifest_570.acf                          | 18 +++++++++---------
- 9 files changed, 26 insertions(+), 26 deletions(-)
+ game/bin/built_from_cl.txt    |  2 +-
+ game/dota/pak01_129.vpk       |  4 ++--
+ game/dota/pak01_154.vpk       |  4 ++--
+ game/dota/pak01_213.vpk       |  4 ++--
+ game/dota/pak01_dir.vpk       |  2 +-
+ game/dota/steam.inf           |  8 ++++----
+ steamapps/appmanifest_570.acf | 22 +++++++++++-----------
+ steamapps/libraryfolders.vdf  |  2 +-
+ 8 files changed, 24 insertions(+), 24 deletions(-)
