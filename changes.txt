@@ -1,6 +1,6 @@
  game/bin/built_from_cl.txt     |  2 +-
  game/dota/bin/win32/server.dll |  4 ++--
  game/dota/bin/win64/server.dll |  4 ++--
- game/dota/steam.inf            |  8 ++++----
+ game/dota/steam.inf            | 10 +++++-----
  steamapps/appmanifest_570.acf  | 24 ++++++++++++------------
- 5 files changed, 21 insertions(+), 21 deletions(-)
+ 5 files changed, 22 insertions(+), 22 deletions(-)
