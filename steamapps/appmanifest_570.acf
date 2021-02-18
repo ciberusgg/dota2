@@ -5,13 +5,13 @@
 	"name"		"Dota 2"
 	"StateFlags"		"4"
 	"installdir"		"dota 2 beta"
-	"LastUpdated"		"1613626425"
+	"LastUpdated"		"1613667958"
 	"UpdateResult"		"0"
 	"SizeOnDisk"		"31507961352"
-	"buildid"		"6256658"
+	"buildid"		"6259712"
 	"LastOwner"		"76561199005609651"
-	"BytesToDownload"		"40151488"
-	"BytesDownloaded"		"40151488"
+	"BytesToDownload"		"40150464"
+	"BytesDownloaded"		"40150464"
 	"BytesToStage"		"199284868"
 	"BytesStaged"		"199284868"
 	"AutoUpdateBehavior"		"0"
@@ -21,7 +21,7 @@
 	{
 		"373301"
 		{
-			"manifest"		"7999719684877364"
+			"manifest"		"9178809625223264627"
 			"size"		"6842840632"
 		}
 		"381451"
@@ -51,12 +51,12 @@
 		}
 		"373302"
 		{
-			"manifest"		"7572176594218581368"
+			"manifest"		"4284629409572366200"
 			"size"		"1637216109"
 		}
 		"373303"
 		{
-			"manifest"		"6185219998545491498"
+			"manifest"		"1140218530394773589"
 			"size"		"411806229"
 		}
 		"373305"
