@@ -1,12 +1,13 @@
  game/bin/built_from_cl.txt     |  2 +-
- game/dota/bin/win32/client.dll |  4 ++--
- game/dota/bin/win32/server.dll |  4 ++--
- game/dota/bin/win64/client.dll |  4 ++--
- game/dota/bin/win64/server.dll |  4 ++--
+ game/dota/bin/win32/client.dll |  2 +-
+ game/dota/bin/win64/client.dll |  2 +-
+ game/dota/pak01_058.vpk        |  4 ++--
  game/dota/pak01_133.vpk        |  4 ++--
- game/dota/pak01_204.vpk        |  4 ++--
+ game/dota/pak01_167.vpk        |  4 ++--
+ game/dota/pak01_208.vpk        |  4 ++--
  game/dota/pak01_213.vpk        |  4 ++--
  game/dota/pak01_dir.vpk        |  2 +-
  game/dota/steam.inf            | 10 +++++-----
  steamapps/appmanifest_570.acf  | 30 +++++++++++++++---------------
- 11 files changed, 36 insertions(+), 36 deletions(-)
+ steamapps/libraryfolders.vdf   |  2 +-
+ 12 files changed, 35 insertions(+), 35 deletions(-)
