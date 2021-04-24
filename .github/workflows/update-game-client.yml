@@ -23,7 +23,7 @@ jobs:
         with:
           credentials: ${{ secrets.GIT_LFS_CREDENTIALS }}
 
-      - uses: invisionapp/private-action-loader@v3
+      - uses: invisionapp/private-action-loader@v3.0.11
         id: output_example
         name: Update game client & push
         with:
